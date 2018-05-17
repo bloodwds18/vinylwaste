@@ -1,0 +1,191 @@
+index.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Viynl Waste</title>
+  <link rel="stylesheet" href="format.css">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <li><a href="index.html" class="green">HOME</a></li>
+    <li><a href="members.html">THE MEMBERS</a></li>
+  </nav>
+
+  <section>
+    <img src="images/homescreen.jpg" alt="Home Screen Logo" class="center">
+    <div class="link">
+      <a href="">LISTEN TO OUR MUSIC</a>
+    </div>
+  </section>
+
+  <form>
+    <strong class="green">Subscribe for Updates</strong><br>
+    <input type="text" name="email"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  <p class="green">vinlyWASTE</p>
+
+  <div class="info">
+    <strong class="green">Management and Booking</strong><br>
+    Email: vinlyWASTE@gmail.com | Phone: 555-666-7890
+  </div>
+
+
+  <footer>
+    &copy 2018 by vinlyWASTE
+  </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+members.html
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Viynl Waste</title>
+  <link rel="stylesheet" href="format.css">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <li><a href="index.html" class="green">HOME</a></li>
+    <li><a href="members.html">THE MEMBERS</a></li>
+  </nav>
+
+
+
+  <footer>
+    &copy 2018 by vinlyWASTE
+  </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+format.css
+
+@font-face {
+  font-family: "Raleway";
+  src: url("https://fonts.google.com/specimen/Raleway");
+}
+
+body {
+  background-color: #1F1F1F;
+  font-family: "Raleway";
+  color: rgb(226, 236, 229);
+}
+
+nav {
+  text-align: right;
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+li {
+  list-style-type: none;
+  padding: 1%;
+  display: inline;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: rgb(226, 236, 229);
+}
+
+a:hover, a:link.green, a:visited.green, .green {
+  color: #E1FBAE;
+}
+
+footer {
+  font-size: 12px;
+  display: block;
+  margin-top: 150px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+index.css
+
+
+form strong, input {
+  position: relative;
+  left: 33%;
+  width: 15%;
+  top: 38px;
+}
+
+div.link {
+  width: 175px;
+  padding: 15px;
+  border: 3px solid rgb(226, 236, 229);
+  margin: auto;
+}
+
+div.info {
+  position: relative;
+  float: right;
+  right: 24%;
+  bottom: 42px;
+  width: 25%;
+}
+
+img {
+  width: 60%;
+  display: inline;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 20px;
+}
