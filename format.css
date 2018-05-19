@@ -1,29 +1,58 @@
-@font-face {
-  font-family: "Raleway";
-  src: url("https://fonts.google.com/specimen/Raleway");
-}
+/* Core Styles */
 
 body {
-  background-color: #1F1F1F;
-  font-family: "Lucida Sans";
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #1F1F1F;
+  color: rgb(226, 236, 229);
+  font-size: 1.15em;
+  line-height: 1.75;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #879768;
+  font-size: 1em;
+  opacity: .5;
+  color: #1F1F1F;
+  text-decoration: none;
+  padding: 2% 4%;
+  border-radius: 20px;
+  margin: 0.5em 0;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.70);
+}
+
+.btn:hover {
+  display: inline-block;
+  background: #E0FBAE;
+  opacity: 1;
+  color: #1F1F1F;
+}
+
+.bar {
+  padding-top: 1em;
+}
+
+.bar a:link, .bar a:visited {
+  text-decoration: none;
   color: rgb(226, 236, 229);
 }
 
-.site {
-  display: grid;
-  grid-template-columns: 10% 15% 15% 10%;
-  grid-template-rows: 25px 1fr 25px 100px 20px;
-  grid-template-areas:
-      "nav nav nav nav"
-      ". splash  splash ."
-      ". link link ."
-      ". article article ."
-      "footer footer footer footer";
+.bar a:hover {
+  color: #E0FBAE;
 }
 
-.nav {
-  grid-area: nav;
-  justify-self: end;
+.link {
+  display: inline;
+  width: 3%;
+  padding: 0;
 }
 
 li {
@@ -31,39 +60,25 @@ li {
   padding: 10px;
 }
 
-section {
-  grid-area: splash;
+h1, h2, h3, h4 {
+  margin: 0;
+  padding-top: 2em;
+  padding-left: .5em;
+  color: #E0FBAE;
 }
 
-.link {
-  grid-area: link;
+p {
+  margin: 0;
+  padding: .5em 1em;
 }
 
-article {
-  grid-area: article;
-  display: grid;
-  grid-template-columns: 50%;
-  grid-template-areas: "email info";
-}
-
-.email {
-  grid-area: email;
-}
-
-.info {
-  grid-area: info;
-}
-
-a:link, a:visited {
-  text-decoration: none;
-  color: rgb(226, 236, 229);
-}
-
-a:hover, a:link.green, a:visited.green, .green {
-  color: #E1FBAE;
+form {
+  font-size: .75em;
+  padding-bottom: 1em;
+  padding-left: 1em;
 }
 
 footer {
-  grid-area: footer;
-  font-size: 12px;
+  padding-top: 1em;
+  font-size: 10px;
 }
