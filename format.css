@@ -49,12 +49,6 @@ img {
   color: #E0FBAE;
 }
 
-.link {
-  display: inline;
-  width: 3%;
-  padding: 0;
-}
-
 li {
   display: inline;
   padding: 10px;
@@ -70,12 +64,6 @@ h1, h2, h3, h4 {
 p {
   margin: 0;
   padding: .5em 1em;
-}
-
-form {
-  font-size: .75em;
-  padding-bottom: 1em;
-  padding-left: 1em;
 }
 
 footer {
