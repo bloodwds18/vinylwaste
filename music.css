@@ -1,0 +1,38 @@
+table, th, td {
+  margin: auto;
+  width: 2em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+video {
+  width:100%;
+}
+
+.media {
+  padding: 0 20px;
+  color: #FAFAFA;
+  font-size: 22px;
+  background-color: #697552;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.60);
+}
+
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: .5fr repeat(2, minmax(auto, 35em)) .5fr;
+  }
+  .content-wrap {
+    grid-column: 2/4;
+  }
+  .content-text {
+    grid-column: 2/4;
+  }
+table {
+    width: 45%;
+  }
+  audio {
+    width: 100%;
+  }

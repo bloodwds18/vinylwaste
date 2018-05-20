@@ -40,7 +40,7 @@ img {
   padding-top: 1em;
 }
 
-.bar a:link, .bar a:visited {
+.bar a:link, .bar a:visited, a {
   text-decoration: none;
   color: rgb(226, 236, 229);
 }
@@ -69,4 +69,9 @@ p {
 footer {
   padding-top: 1em;
   font-size: 10px;
+}
+
+footer a {
+  font-size: 15px;
+  text-decoration: underline;
 }

@@ -1,13 +1,21 @@
+h1 {
+  font-size: 2em;
+}
+
 .profile {
-  width: 50%;
+  width: 65%;
   margin: 40px auto;
   padding: 2em;
   background-color: #697552;
   border-radius: 10px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.60);
 }
 
 .info {
-  padding: 1em;
+  color: #fafafa;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 2em;
 }
 
 .profile>img {
@@ -37,4 +45,10 @@
   .profile:nth-child(even) {
     width: 60%;
     grid-column: 2/3;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .info {
+    font-size: 18px;
   }
