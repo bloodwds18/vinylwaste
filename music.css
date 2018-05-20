@@ -6,7 +6,7 @@ table, th, td {
 }
 
 video {
-  width:100%;
+  width: 100%;
 }
 
 .media {
@@ -30,7 +30,7 @@ video {
   .content-text {
     grid-column: 2/4;
   }
-table {
+  table {
     width: 45%;
   }
   audio {
