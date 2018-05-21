@@ -1,0 +1,22 @@
+#div1 {
+  margin:auto;
+  width: 800px;
+  height: 200px;
+  border: 1px solid #aaaaaa;
+}
+
+@media (min-width: 700px) {
+
+  .grid {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: .5fr repeat(2, minmax(auto, 35em)) .5fr;
+  }
+  .content-wrap {
+    grid-column: 2/4;
+  }
+  #drag1 {
+    margin: auto;
+    width: 30%;
+  }
+}
