@@ -22,6 +22,17 @@ h1 {
   box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
 
+ul {
+  margin-right: 40px;
+}
+
+.link {
+  display: inline;
+  margin: auto;
+  width: 40px;
+  margin-right: 10px;
+}
+
 @media (min-width: 700px) {
   .grid {
     display: grid;
